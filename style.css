@@ -1,0 +1,182 @@
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+  background-image: url('./Logo-Perso-FABRICE-FANIRY-RANDT.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenu{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /*animation: rot 5s infinite linear;*/
+  box-shadow: 0 0 0px black,0px 0px 3px 2px grey inset;
+  border-radius: 50%;
+  border: 20px solid black;
+}
+
+
+.heure{
+  transform: rotate(180deg);
+
+position: absolute;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+background-color: red;
+box-shadow: 0 0 5px black;
+border-radius: 50%;
+
+}
+
+.minute{
+  transform: rotate(180deg);
+  position: absolute;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  box-shadow: 0 0 5px black;
+  border-radius: 50%;
+}
+
+.seconde{
+ transform: rotate(180deg);
+  position: absolute;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+background-color: red;
+box-shadow: 0 0 5px black;
+border-radius: 50%;
+  background-color: red;
+  
+}
+
+
+#aigu{
+  position: absolute;
+  top: 8px;
+}
+
+.aigu_heure{
+  background-color: black;
+  width: 10px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.aigu_minute{
+  background-color: black;
+  width: 6px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.aigu_seconde {
+  background-color: crimson;
+  width: 4px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.centre{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.numeric{
+  width: 60px;
+  height: 30px;
+  bottom: -60px;
+  border-radius: 5px;
+  background-color: black;
+  position: absolute;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 0;
+}
+
+.haut{
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: black;
+  position: absolute;
+  top: -14px;
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.gauche{
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: black;
+  position: absolute;
+  left: -14px;
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.bas {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: black;
+  position: absolute;
+  bottom: -14px;
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.droit {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: black;
+  position: absolute;
+  right: -14px;
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
